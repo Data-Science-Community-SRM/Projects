@@ -1,4 +1,70 @@
-/* navbar  */
+.owl-nome {
+    margin-top: 3rem;
+}
 
+.owl-nome .item {
+    background: #f1f1f1;
+    height: 350px;
+    text-align: center;
+}
 
-/* navbar ends  */
+.owl-nome .owl-dots {
+    margin-top: 50px;
+}
+
+.owl-nome .owl-nav [class*=owl-] {
+    color: #000;
+    font-size: 54px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.owl-nome .owl-nav [class*=owl-]:hover {
+    color: #671099;
+    background: none;
+}
+
+.owl-nome .owl-dots .owl-dot span {
+    margin: 5px 7px;
+    background: #671099;
+    transition: opacity .2s ease;
+    border-radius: 50px;
+}
+
+.fa {
+    color: rgb(177, 180, 180);
+    opacity: 4px;
+}
+
+.fa:hover {
+    color: #671099;
+}
+
+.owl-nome .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #000;
+}
+
+.owl-nome .owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 26%;
+    background: #671099;
+    height: 0px;
+}
+
+.owl-nome .owl-next {
+    position: absolute;
+    background: #671099;
+    right: 1%;
+}
+
+.owl-nome .owl-prev {
+    position: absolute;
+    background: #671099;
+    left: 1%;
+}
