@@ -1,11 +1,18 @@
+body {
+    background-image: url(../images/Projects-Dark\ .png);
+}
+
 .owl-nome {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .owl-nome .item {
     background: #f1f1f1;
-    height: 350px;
+    height: 400px;
+    width: 450px;
     text-align: center;
+    left: 7rem;
+    padding: 2rem;
 }
 
 .owl-nome .owl-dots {
@@ -13,7 +20,7 @@
 }
 
 .owl-nome .owl-nav [class*=owl-] {
-    color: #000;
+    color: #fff;
     font-size: 54px;
     margin: 5px;
     padding: 4px 7px;
@@ -29,13 +36,15 @@
 }
 
 .owl-nome .owl-dots .owl-dot span {
-    margin: 5px 7px;
+    margin: 6px 7px;
     background: #671099;
     transition: opacity .2s ease;
     border-radius: 50px;
+    width: 1rem;
+    height: 1rem;
 }
 
-.fa {
+.fa:not(.fa-github) {
     color: rgb(177, 180, 180);
     opacity: 4px;
 }
@@ -46,7 +55,7 @@
 
 .owl-nome .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #000;
+    background: #fff;
 }
 
 .owl-nome .owl-nav {
@@ -61,10 +70,41 @@
     position: absolute;
     background: #671099;
     right: 1%;
+    outline: none;
 }
 
 .owl-nome .owl-prev {
     position: absolute;
     background: #671099;
     left: 1%;
+    outline: none;
+}
+
+
+/* changes made by ananya  */
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: #671099;
+}
+
+.projectimg {
+    margin-top: -50px;
+}
+
+.card {
+    width: 450px;
+    height: 400px;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
 }
