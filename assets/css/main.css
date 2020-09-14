@@ -3,16 +3,17 @@ body {
 }
 
 .owl-nome {
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 
 .owl-nome .item {
     background: #f1f1f1;
-    height: 400px;
-    width: 450px;
+    height: 570px;
+    width: 585px;
     text-align: center;
     left: 7rem;
     padding: 2rem;
+    margin-top: 17rem;
 }
 
 .owl-nome .owl-dots {
@@ -70,18 +71,13 @@ body {
     position: absolute;
     background: #671099;
     right: 1%;
-    outline: none;
 }
 
 .owl-nome .owl-prev {
     position: absolute;
     background: #671099;
     left: 1%;
-    outline: none;
 }
-
-
-/* changes made by ananya  */
 
 h1 {
     color: #fff;
@@ -98,13 +94,25 @@ p {
 }
 
 .projectimg {
-    margin-top: -50px;
+    margin-top: -70px;
+    margin-left: 90px;
 }
 
 .card {
-    width: 450px;
+    width: 460px;
     height: 400px;
     padding: 1rem;
     border-radius: 20px;
     text-align: center;
+}
+.text{
+    margin-top: 10%;
+    padding-bottom: 1.5em;
+    
+}
+.text h2{
+    font-size: 2.5em;
+}
+.text p{
+    font-size: 1.2em;
 }
