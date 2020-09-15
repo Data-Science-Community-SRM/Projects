@@ -7,17 +7,16 @@ body {
 }
 
 .owl-nome .item {
-    background: #f1f1f1;
-    height: 470px;
+    height: 450px;
     width: 485px;
     text-align: center;
     left: 7rem;
     padding: 2rem;
-    margin-top: 17rem;
+    margin-top: 13rem;
 }
 
 .owl-nome .owl-dots {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .owl-nome .owl-nav [class*=owl-] {
@@ -32,13 +31,13 @@ body {
 }
 
 .owl-nome .owl-nav [class*=owl-]:hover {
-    color: #671099;
+    color: #770e8b;
     background: none;
 }
 
 .owl-nome .owl-dots .owl-dot span {
     margin: 6px 7px;
-    background: #671099;
+    background: #770e8b;
     transition: opacity .2s ease;
     border-radius: 50px;
     width: 1rem;
@@ -48,10 +47,12 @@ body {
 .fa:not(.fa-github) {
     color: rgb(177, 180, 180);
     opacity: 4px;
+    outline: 0;
 }
 
 .fa:hover {
-    color: #671099;
+    color: #770e8b;
+    outline: 0;
 }
 
 .owl-nome .owl-dots .owl-dot.active span,
@@ -63,19 +64,19 @@ body {
     position: absolute;
     width: 100%;
     top: 26%;
-    background: #671099;
+    background: #770e8b;
     height: 0px;
 }
 
 .owl-nome .owl-next {
     position: absolute;
-    background: #671099;
+    background: #770e8b;
     right: 1%;
 }
 
 .owl-nome .owl-prev {
     position: absolute;
-    background: #671099;
+    background: #770e8b;
     left: 1%;
 }
 
@@ -83,14 +84,14 @@ h1 {
     color: #fff;
     text-align: center;
     font-size: 5em;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 1rem;
 }
 
 p {
-    font-size: 1.0rem;
-    font-weight: 500;
-    color: #671099;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #770e8b;
 }
 
 .projectimg {
@@ -104,15 +105,62 @@ p {
     padding: 1rem;
     border-radius: 20px;
     text-align: center;
+    background-color: #b48fc9;
 }
-.text{
+
+.text {
     margin-top: 10%;
     padding-bottom: 1.5em;
-    
 }
-.text h2{
-    font-size: 2.5em;
+
+.text h2 {
+    font-size: 2.0em;
+    font-weight: 600;
 }
-.text p{
+
+.text p {
     font-size: 1.2em;
+}
+
+@media screen and (max-width: 992px) {
+    .owl-item.cloned {
+        display: none !important;
+    }
+    .owl-stage {
+        transform: none !important;
+        transition: none !important;
+        width: auto !important;
+    }
+    .owl-item {
+        width: auto !important;
+    }
+    .fa:not(.fa-github) {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .owl-item.cloned {
+        display: none !important;
+    }
+    .owl-stage {
+        transform: none !important;
+        transition: none !important;
+        width: auto !important;
+    }
+    .owl-item {
+        width: auto !important;
+    }
+    .fa:not(.fa-github) {
+        visibility: hidden;
+    }
+    .owl-nome .item {
+        left: auto;
+        right: auto;
+        padding: 0%;
+        width: auto;
+    }
+    .owl-item {
+        margin-bottom: 3rem;
+    }
 }
