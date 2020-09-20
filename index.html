@@ -27,8 +27,10 @@
 </head>
 
 <body>
+  <button onclick="myFunction()">Toggle light mode</button>
   <div class="heading">
-    <h1 class="mt-2 pt-3"><span style="color: #770e8b">P</span>rojects</h1>
+
+    <h1 class="mt-2 pt-3"><span class="p" style="color: #770e8b">P</span><span class="rojects">rojects</span></h1>
   </div>
   <div class="owl-nome owl-carousel owl-theme mt-5 pt-5">
     <div class="item card m-3 pb-5" style="background-color: rgb(243, 231, 255)">
@@ -196,7 +198,12 @@
         },
       },
     });
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("light-mode");
+    }
   </script>
+
 </body>
 
 </html>

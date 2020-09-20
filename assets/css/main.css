@@ -173,3 +173,13 @@ p {
     visibility: hidden;
   }
 }
+.light-mode {
+  background-image: url(../images/Project_Light.png);
+  color: rgb(0, 0, 0);
+}
+.light-mode .rojects {
+  color: #a867ce;
+}
+.light-mode .p {
+  color: #12011b;
+}
