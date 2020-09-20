@@ -119,7 +119,7 @@ p {
 }
 
 .text p {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 @media screen and (max-width: 992px) {
@@ -135,6 +135,12 @@ p {
         width: auto !important;
     }
     .fa:not(.fa-github) {
+        visibility: hidden;
+    }
+    .owl-item {
+        margin-top: 3.5rem;
+    }
+    .owl-dots {
         visibility: hidden;
     }
 }
@@ -161,6 +167,9 @@ p {
         width: auto;
     }
     .owl-item {
-        margin-bottom: 3rem;
+        margin-top: 3.5rem;
+    }
+    .owl-dots {
+        visibility: hidden;
     }
 }
